@@ -1,0 +1,6 @@
+/.idea
+/output/RMSprop_default
+/output/Sigmoid_SGD_nesterov
+/output/VGG_SGD_nesterov
+/output/VGGnet_Adammax_default
+/output/VGGnet_SGD_lrmnd

@@ -1,0 +1,47 @@
+----cardboard----
+python predict.py --image images/cardboard.jpg --model output/VGGnet_SGD_default/smallvggnet4.model --labe
+l-bin output/VGGnet_SGD_default/smallvggnet_lb4.pickle --width 64 --height 64
+
+2024-04-25 19:07:39.778886
+
+[INFO] loading network and label binarizer...
+
+1/1 [==============================] - 1s 515ms/step
+[[8.6039817e-01 6.2516792e-04 1.3423339e-04 7.8451197e-04 1.0328332e-03
+  1.3672484e-01 3.0011719e-04]] ['cardboard' 'e-waste' 'glass' 'medical' 'metal' 'paper' 'plastic']
+
+---glass----
+python predict.py --image images/glass_2.jpg --model output/VGGnet_SGD_default/smallvggnet4.model --label-
+bin output/VGGnet_SGD_default/smallvggnet_lb4.pickle --width 64 --height 64   
+
+2024-04-25 19:11:47.755074
+
+1/1 [==============================] - 0s 212ms/step
+[[4.4053287e-08 1.3243773e-07 9.9996591e-01 5.9784810e-07 1.6531927e-06
+  3.6645206e-06 2.7974575e-05]] ['cardboard' 'e-waste' 'glass' 'medical' 'metal' 'paper' 'plastic']
+
+
+----metall-----
+python predict.py --image images/metal_containers_3.jpg --model output/VGGnet_SGD_default/smallvggnet4.mod
+el --label-bin output/VGGnet_SGD_default/smallvggnet_lb4.pickle --width 64 --height 64
+
+2024-04-25 19:13:09.862750
+[INFO] loading network and label binarizer...
+
+1/1 [==============================] - 0s 187ms/step
+[[4.2205630e-03 8.1359921e-04 1.1583717e-02 4.6219695e-03 9.6257299e-01
+  1.6132543e-02 5.4663247e-05]] ['cardboard' 'e-waste' 'glass' 'medical' 'metal' 'paper' 'plastic']
+
+---plasstic-----
+python predict.py --image images/plastic_bottle_3.jpg --model output/VGGnet_SGD_default/smallvggnet4.model
+ --label-bin output/VGGnet_SGD_default/smallvggnet_lb4.pickle --width 64 --height 64
+
+2024-04-25 19:18:28.661205
+
+[INFO] loading network and label binarizer...
+
+1/1 [==============================] - 0s 190ms/step
+[[6.8323199e-05 9.4665293e-06 8.5488748e-05 2.7825853e-02 1.3302132e-01
+  3.7656464e-02 8.0133301e-01]] ['cardboard' 'e-waste' 'glass' 'medical' 'metal' 'paper' 'plastic']
+
+
